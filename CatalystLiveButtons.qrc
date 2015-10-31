@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/CatalystLiveButtons" >
+    <file>Icons/SingleStep.png</file>
+    <file>Icons/connect.png</file>
+  </qresource>
+</RCC>

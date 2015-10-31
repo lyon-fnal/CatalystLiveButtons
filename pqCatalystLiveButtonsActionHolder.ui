@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>pqCatalystLiveButtonsActionHolder</class>
+ <widget class="QWidget" name="pqCatalystLiveButtonsActionHolder">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <action name="actionConnect">
+    <property name="icon">
+      <iconset resource="CatalystLiveButtons.qrc">
+        <normaloff>:/CatalystLiveButtons/Icons/connect.png</normaloff>:/CatalystLiveButtons/Icons/connect.png</iconset>
+    </property>
+    <property name="text">
+      <string>Connect to Catalyst</string>
+    </property>
+    <property name="toolTip">
+      <string>Connect to Catalyst localhost:22222 Paused</string>
+    </property>
+  </action>
+  <action name="actionSingleStep">
+   <property name="icon">
+    <iconset resource="CatalystLiveButtons.qrc">
+     <normaloff>:/CatalystLiveButtons/Icons/SingleStep.png</normaloff>:/CatalystLiveButtons/Icons/SingleStep.png</iconset>
+   </property>
+   <property name="text">
+    <string>Single Step</string>
+   </property>
+   <property name="toolTip">
+     <string>Catalyst: Advance one time step (event)</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="CatalystLiveButtons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
