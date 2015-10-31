@@ -1,5 +1,12 @@
 // -*- c++ -*-
-//*=========================================================================
+/*=========================================================================
+ CatalystLiveButtons - Adam L. Lyon, October 2015
+ Fermitools License https://cdcvs.fnal.gov/redmine/projects/fermitools/wiki
+ 
+ Derived from SLACTools and ParaView code. 
+ See Copyright & License notices therein.
+ 
+ =========================================================================*/
 #include "pqCatalystLiveButtonsManager.h"
 
 
