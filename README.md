@@ -1,7 +1,7 @@
 # CatalystLiveButtons
 ParaView Plugin - Some convenience buttons for Catalyst Live and ParaView
 
-Adam L. Lyon (Fermilab October 2015)
+Adam L. Lyon (Fermi National Accelerator Laboratory/October 2015)
 
 This ParaView plugin (tested with ParaView 4.4) brings up a toolbar with two buttons. The icons for the buttons are "borrowed"
 from the ParaView "VCR" buttons. I need to make better icons one day. 
