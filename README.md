@@ -7,8 +7,7 @@ This ParaView plugin (tested with ParaView 4.4) brings up a toolbar with two but
 from the ParaView "VCR" buttons. I need to make better icons one day. 
 
 Connection button: ![ConnectionButton](https://github.com/lyon-fnal/CatalystLiveButtons/blob/master/Icons/connect.png) Clicking 
-this button will bring up the connection dialog box. Once accepted, a Catalyst Live connection will be established. Catalyst 
-Live will pause on the first time step. 
+this button will bring up the connection dialog box. Once accepted, a Catalyst Live connection will be established. As an added feature, Catalyst Live will automatically pause on the first time step. 
 
 Single step button: ![SingleStep](https://github.com/lyon-fnal/CatalystLiveButtons/blob/master/Icons/SingleStep.png) If Catalyst
 Live is paused (thus pausing the simulation), then clicking on this button will allow the simulation to continue to the next
@@ -20,4 +19,10 @@ This code is derived from similar routines in ParaView and the SLACTools plugin.
 
 ## Installation
 
-The easiest way to install this plugin is to build your own ParaView with this repository checked out the `ParaView/Plugins` directory. You will need to set `-DPARAVIEW_BUILD_PLUGIN_CatalystLiveButtons=ON` when you run `cmake`. Be sure to activate the plugin from the `Tools->Manage Plugins` menu option. 
+The easiest way to install this plugin is to build your own ParaView with this repository checked out the `ParaView/Plugins` directory. You will need to set 
+
+```
+-DPARAVIEW_BUILD_PLUGIN_CatalystLiveButtons=ON
+```
+
+when you run `cmake`. Be sure to activate the plugin from the `Tools->Manage Plugins` menu option. 
